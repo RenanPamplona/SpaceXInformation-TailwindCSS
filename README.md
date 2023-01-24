@@ -1,6 +1,7 @@
-# SpaceX Data
+# SpaceX Information
 
 This website is being developed by educational purposes, and its main objective is to practice NextJs, Typescript and Styled Components
+(This specific repo has the tailwind version of the main project (which maybe can become the main project soon)
 
 ## Technologies used in this project
 
