@@ -19,6 +19,7 @@ const BigCard = (props: {
         <img
           src={props.image}
           alt={props.name}
+          loading="lazy"
           className="h-64 w-full object-cover object-center brightness-50 lg:h-full"
         />
         <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-4xl font-bold uppercase md:text-5xl">

@@ -38,6 +38,7 @@ const Slider = (props: { children?: ReactNode; imagesArray: string[] }) => {
         unselectable="on"
         src={props.imagesArray[index]}
         alt="rocket image"
+        loading="lazy"
         className="h-56 w-screen object-cover object-center sm:h-64 md:h-96"
       />
       <button

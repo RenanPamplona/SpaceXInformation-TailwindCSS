@@ -32,6 +32,7 @@ const MediumCard = (props: {
       <img
         src={props.image == null ? "/images/logo.png" : props.image}
         alt="img"
+        loading="lazy"
         className={`w-full object-cover object-center brightness-75 ${
           props.long ? "h-96" : "h-64"
         } ${props.short ? "m-4 h-auto w-auto" : "h-96"}`}
