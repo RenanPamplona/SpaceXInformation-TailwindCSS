@@ -6,7 +6,7 @@ This website is being developed by educational purposes, and its main objective 
 ## Technologies used in this project
 
 - NextJS
-- Styled Components
+- Tailwind CSS
 - Typescript
 - Font Awesome
 
